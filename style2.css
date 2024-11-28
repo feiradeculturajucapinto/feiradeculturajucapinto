@@ -23,6 +23,24 @@ header {
             transform: translate(-50%, -50%); /* Centraliza a imagem */
 }
 
+/* Mudança de posição para telas pequenas (ex: dispositivos móveis) */
+        @media (max-width: 768px) {
+            #logo {
+                top: 23%; /* Muda a posição para 20% do topo da tela */
+                left: 2%; /* Muda a posição para 20% da esquerda da tela */
+                transform: translate(0, 0); /* Remove a centralização */
+            }
+        }
+
+        /* Mudança de posição para telas grandes */
+        @media (min-width: 1024px) {
+            #logo {
+                top: 5%; /* Posição no topo para telas maiores */
+                left: 30%; /* Posição à esquerda para telas maiores */
+                transform: translate(0, 0); /* Remove a centralização */
+            }
+        }
+
 nav ul {
     list-style: none;
     margin: 15px 0;
