@@ -14,6 +14,15 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
+#logo{
+    height: auto;
+    width: 110px;
+    position: absolute;
+            top: -210px; /* Posição inicial da imagem */
+            left: 850px; /* Posição inicial da imagem */
+            transform: translate(-50%, -50%); /* Centraliza a imagem */
+}
+
 nav ul {
     list-style: none;
     margin: 15px 0;
